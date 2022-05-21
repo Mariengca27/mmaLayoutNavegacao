@@ -1,13 +1,15 @@
+import Navbar from './components/Navbar';
 import './assets/styles/custom.scss';
 import './App.css';
 
 function App() {
-  return (
-    <h1>
-Hello teste
+  return (<>
 
-    </h1>
+  <Navbar/>
+    <h1>Hello teste</h1>
+
+  </>
   );
-}
+  }
 
 export default App;
